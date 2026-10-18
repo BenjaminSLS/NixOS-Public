@@ -1,12 +1,12 @@
 <div align="center">
 
-# NixOS-Green - Declarative NixOS Configuration
+# NixOS-Public - Declarative NixOS Configuration
 
 ![NixOS](https://img.shields.io/badge/NixOS-Stable-blue)
 ![Flakes](https://img.shields.io/badge/Nix-Flakes-informational)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-*A declarative [NixOS](https://nixos.org) desktop built using [Flakes](https://wiki.nixos.org/wiki/Flakes) and [Home Manager](https://wiki.nixos.org/wiki/Home_Manager) with the [DMS](https://danklinux.com/) desktop and [Niri](https://niri-wm.github.io/niri/) Wayland compositor.  The system — packages, services, dotfiles, and user environment — is defined in code and rebuilt atomically from a pinned `flake.lock` file.  Reproducible from a single clone, with the added benefit of allowing configuration files to live within a safer space.*
+*A declarative [NixOS](https://nixos.org) desktop built using [Flakes](https://wiki.nixos.org/wiki/Flakes) and [Home Manager](https://wiki.nixos.org/wiki/Home_Manager) with the [DMS](https://danklinux.com/) desktop and [Niri](https://niri-wm.github.io/niri/) Wayland compositor.  The system — packages, services, dotfiles, and user environment — is defined in code and rebuilt atomically from a pinned `flake.lock` file.  Reproducible from a single clone.*
 
 </div>
 
@@ -26,7 +26,7 @@
 
 ```text
 syste_files
-├── public/ 
+├── public/                            # Publicly available NixOS configuration
 │   ├── .git/
 │   ├── flake.nix                      # Inputs + outputs
 │   ├── flake.lock                     # Pinned dependency versions
@@ -40,9 +40,9 @@ syste_files
 │   │       └── modules/               # User-specific modules
 │   ├── README.md                      # The README.md files you are currently reading.
 │   └── LICENSE
-└── private/
+└── private/                           # Personal information to be kept private
     ├── .git/
-    ├── private.nix
+    ├── private.nix                    # Your personal information
     └── system/
         └── hardware-configuration.nix
 ```
@@ -65,6 +65,21 @@ I chose DMS and Niri as I like having a more keyboard-oriented approach to my wo
 ## Why NixOS
 
 I have enjoyed using NixOS since I rebuilt my first configuration several years ago.  The depth of the system it allows you to create has only provided me with an ever-increasing drive to learn more about operating systems and programming languages as time goes on.
+
+## Installing NixOS-Public
+
+### Using NixOS-Private
+```bash
+mkdir ~/system_files
+
+cd ~/system_files
+
+git clone git@github.com:BenjaminSLS/NixOS-Public.git
+
+mv NixOS-Public/ public
+```
+
+Follow the instructions on [NixOS-Private](git@github.com:BenjaminSLS/NixOS-Private.git) to continue.
 
 ## License
 
