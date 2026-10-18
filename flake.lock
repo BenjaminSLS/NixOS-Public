@@ -1,0 +1,83 @@
+{
+  "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1792274446,
+        "narHash": "sha256-AM1HmBeDnB2B3dSiXuCYeu7Me+lHNpz/P39lVxGJBuQ=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "ab3823b4b24c0c3ca984c1f3ee577fd6d667424c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "release-26.05",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1792030654,
+        "narHash": "sha256-OaQwAtPMTjQiY2sT/2/62UbSPhzP/0aDnWzMm/NCiUw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "26f4107e47e3ad0ffd0db220469ba83b6f6d96e8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-26.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgsUnstable": {
+      "locked": {
+        "lastModified": 1792094642,
+        "narHash": "sha256-zp8ToDMnqZcu4o4IH9pdwXFXGp7yLm/M0dEnNWnyd7I=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "fe13242281a67641c0102cdb1087f0ebe586c7df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "private": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792295782,
+        "narHash": "sha256-DM0KLKBk9sbFgZZ70PEDVFRDng+3RAJNgFrS70bKr0Y=",
+        "ref": "refs/heads/main",
+        "rev": "0bd23d82aa45226b10d93dcf57caf1d78d1675fd",
+        "revCount": 1,
+        "type": "git",
+        "url": "ssh://git@github.com/BenjaminSLS/redmont-private.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "ssh://git@github.com/BenjaminSLS/redmont-private.git"
+      }
+    },
+    "root": {
+      "inputs": {
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs",
+        "nixpkgsUnstable": "nixpkgsUnstable",
+        "private": "private"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
