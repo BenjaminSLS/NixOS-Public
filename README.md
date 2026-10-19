@@ -6,7 +6,7 @@
 ![Flakes](https://img.shields.io/badge/Nix-Flakes-informational)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-*A declarative [NixOS](https://nixos.org) desktop built using [Flakes](https://wiki.nixos.org/wiki/Flakes) and [Home Manager](https://wiki.nixos.org/wiki/Home_Manager) with the [DMS](https://danklinux.com/) desktop and [Niri](https://niri-wm.github.io/niri/) Wayland compositor.  The system — packages, services, dotfiles, and user environment — is defined in code and rebuilt atomically from a pinned `flake.lock` file.  Reproducible from a single clone.*
+*A declarative [NixOS](https://nixos.org) desktop built using [Flakes](https://wiki.nixos.org/wiki/Flakes) and [Home Manager](https://wiki.nixos.org/wiki/Home_Manager) with the [DMS](https://danklinux.com/) desktop and [Niri](https://niri-wm.github.io/niri/) Wayland compositor.  The system — packages, services, dotfiles, and user environment — is defined in code and rebuilt atomically from a pinned `flake.lock` file.*
 
 </div>
 
@@ -42,7 +42,7 @@ syste_files
 │   └── LICENSE
 └── private/                           # Personal information to be kept private
     ├── .git/
-    ├── private.nix                    # Your personal information
+    ├── personal.nix                   # Your personal information
     └── system/
         └── hardware-configuration.nix
 ```
@@ -55,8 +55,8 @@ I placed the entire system into a flake as I prefer being able to access everyth
 
 ### System and User Configurations
 
-The overall system is managed through the configuration.nix file located at /home/redmouse/SystemFiles/system/.
-Every user's home.nix configuration file can be managed in a subdirectory of /SystemFiles or kept in their own directory if there is no need for reproducibility.
+The overall system is managed through the configuration.nix file located at /home/{username}/system_files/public.
+Every user's home.nix configuration file can be managed in a subdirectory of /system_files/public/users or kept in their own directory if there is no need for reproducibility.
 
 ### DMS and Niri
 
@@ -79,7 +79,7 @@ git clone git@github.com:BenjaminSLS/NixOS-Public.git
 mv NixOS-Public/ public
 ```
 
-Follow the instructions on [NixOS-Private](git@github.com:BenjaminSLS/NixOS-Private.git) to continue.
+Follow the instructions on [NixOS-Private](httos://BenjaminSLS/NixOS-Private) to continue.
 
 ## License
 
