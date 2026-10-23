@@ -83,7 +83,7 @@ git clone git@github.com:BenjaminSLS/NixOS-Public.git
 mv NixOS-Public/ public
 ```
 
-Follow the instructions on [NixOS-Private](httos://BenjaminSLS/NixOS-Private) to continue.
+Follow the instructions on [NixOS-Private](https://github.com/BenjaminSLS/NixOS-Private) to continue.
 
 ## License
 
