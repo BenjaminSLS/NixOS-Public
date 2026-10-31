@@ -4,7 +4,12 @@
   # Install user level packages.
   home.packages = with pkgs; [
     # Browsers and related software.
+    mullvad-browser
+    mullvad-vpn
     tor-browser
+
+    # Notes app
+    notesnook
 
     # Music player
     sayonara
