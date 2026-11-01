@@ -56,17 +56,17 @@
     "private": {
       "flake": false,
       "locked": {
-        "lastModified": 1792295782,
-        "narHash": "sha256-DM0KLKBk9sbFgZZ70PEDVFRDng+3RAJNgFrS70bKr0Y=",
+        "lastModified": 1793493346,
+        "narHash": "sha256-zdSFmRrWQREnZy3vVS5+eZ3+pZ0zkSQRL7CNWnIexzg=",
         "ref": "refs/heads/main",
-        "rev": "0bd23d82aa45226b10d93dcf57caf1d78d1675fd",
-        "revCount": 1,
+        "rev": "917b5c400dab07cf57813b0492749849b334f7e5",
+        "revCount": 2,
         "type": "git",
-        "url": "ssh://git@github.com/BenjaminSLS/redmont-private.git"
+        "url": "file:/home/redmouse/system_files/private"
       },
       "original": {
         "type": "git",
-        "url": "ssh://git@github.com/BenjaminSLS/redmont-private.git"
+        "url": "file:/home/redmouse/system_files/private"
       }
     },
     "root": {

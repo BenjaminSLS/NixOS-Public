@@ -14,7 +14,7 @@
 
     # Private information
     private = {
-      url = "git+ssh://git@github.com/BenjaminSLS/redmont-private.git";
+      url = "git+file:/home/redmouse/system_files/private";
       flake = false;
     };
   };
