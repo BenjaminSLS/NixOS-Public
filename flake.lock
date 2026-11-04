@@ -56,11 +56,11 @@
     "private": {
       "flake": false,
       "locked": {
-        "lastModified": 1793493346,
-        "narHash": "sha256-zdSFmRrWQREnZy3vVS5+eZ3+pZ0zkSQRL7CNWnIexzg=",
+        "lastModified": 1793536801,
+        "narHash": "sha256-dQYWQpquOIOeUScRQy92c6nuIHOE4DkqugT/AuWN+8k=",
         "ref": "refs/heads/main",
-        "rev": "917b5c400dab07cf57813b0492749849b334f7e5",
-        "revCount": 2,
+        "rev": "968e9dacdaf480aca67e29f32b9efdcaa3c28490",
+        "revCount": 3,
         "type": "git",
         "url": "file:/home/redmouse/system_files/private"
       },

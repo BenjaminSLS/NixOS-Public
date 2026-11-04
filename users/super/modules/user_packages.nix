@@ -25,6 +25,9 @@
     rio
 
   ] ++ (with pkgsUnstable; [
+    # Browsers
+    ladybird
+
     # Privacy software.
     proton-vpn
   ]);

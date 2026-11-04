@@ -6,11 +6,15 @@
     # Rust lang.
     cargo
     rustc
+
+    # Godot
+    godot
   ] ++ (with pkgsUnstable; [
     # Python
     python3
     
     # IDE
     zed-editor
+    xdg-utils
   ]);
 }
