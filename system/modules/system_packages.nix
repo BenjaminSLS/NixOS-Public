@@ -21,10 +21,7 @@
       libreoffice
       hunspell
       hunspellDicts.en_US
-
-      # Terminal
-      alacritty
-    
+   
       # Browsers
       firefox
 

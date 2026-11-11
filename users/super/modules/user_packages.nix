@@ -12,7 +12,7 @@
     notesnook
 
     # Music player
-    sayonara
+    kew
    
     #Gleam
     gleam
