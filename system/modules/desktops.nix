@@ -27,7 +27,13 @@
 
   # Gnome DE and GDM.
   services = {
-    displayManager.gdm.enable = true;
-    desktopManager.gnome.enable = true;
+    displayManager.cosmic-greeter.enable = true;
+    desktopManager.cosmic.enable = true;
+  };
+
+  environment = {
+    cosmic.excludePackages = with pkgs; [
+      # Empty for now.
+    ];
   };
 }

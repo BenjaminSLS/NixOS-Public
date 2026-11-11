@@ -12,7 +12,7 @@
   ] ++ (with pkgsUnstable; [
     # Python
     python3
-    
+   
     # IDE
     zed-editor
     xdg-utils
