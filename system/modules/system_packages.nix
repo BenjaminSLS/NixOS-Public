@@ -33,6 +33,7 @@
       findutils
       gcc
       git
+      unzip
       wget
       zoxide
 

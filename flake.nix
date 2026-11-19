@@ -14,7 +14,7 @@
 
     # Private information pointer to an internal directory.
     private = {
-      url = "git+file:/home/redmouse/system_files/private";
+      url = "path:/home/redmouse/system_files/private";
       flake = false;
     };
   };

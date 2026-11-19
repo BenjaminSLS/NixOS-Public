@@ -1,34 +1,30 @@
-{ pkgs, pkgsUnstable, ... }:
+{ pkgs, pkgsUnstable, private, ... }:
 
 {
+  # Install private packages that is entirely private per user.
+  imports = [ (private + "/private-packages.nix") ];
+
   # Install user level packages.
-  home.packages = with pkgs; [
-    # Browsers and related software.
-    mullvad-browser
-    mullvad-vpn
-    tor-browser
+  home.packages =
+    (with pkgs; [
+      # Browser
+      tor-browser
 
-    # Notes app
-    notesnook
-
-    # Music player
-    kew
+      # Music player
+      kew
    
-    #Gleam
-    gleam
+      #Gleam
+      gleam
 
-    # Keyboard and mouse configurations.
-    #piper
-    #system76-keyboard-configurator
+      # Keyboard and mouse configurations.
+      #piper
+      #system76-keyboard-configurator
 
-    # Terminal / Shell
-    rio
-
-  ] ++ (with pkgsUnstable; [
-    # Browsers
-    ladybird
-
-    # Privacy software.
-    proton-vpn
-  ]);
+      # Terminal / Shell
+      rio
+    ])
+    ++ (with pkgsUnstable; [   
+      # Privacy software.
+      proton-vpn
+    ]);
 }

@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1792818383,
-        "narHash": "sha256-199i7ubVSXTMl+0AAlL7cVCXSjcI+jWByMcimYjeMX0=",
+        "lastModified": 1794943722,
+        "narHash": "sha256-Qkh6uNyMsic61gfyOO8VXnC+HEBdti6Xe2kKiMf66O0=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "24f2190587513b9c2f73db112a17844ae912d965",
+        "rev": "5643e73425b85ac359ba2aaf83deae8ce1cd7968",
         "type": "github"
       },
       "original": {
@@ -23,11 +23,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1793410479,
-        "narHash": "sha256-HzgjxrLY4AEc0044ZuM5CHbLSWLZgDlay1idmzvvpJs=",
+        "lastModified": 1794872590,
+        "narHash": "sha256-E+XLAfnC7+bdr4qlEgRv6cdGmiqTU5oeFNKCha7epqQ=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "fa1373130d5a21c040a47c5dbe1913d59ed91808",
+        "rev": "f68407657ad294471eb4b2e65d193df26edf729f",
         "type": "github"
       },
       "original": {
@@ -39,11 +39,11 @@
     },
     "nixpkgsUnstable": {
       "locked": {
-        "lastModified": 1793341285,
-        "narHash": "sha256-Y1CiZ4SoBUjLQyQM/pY+rS2dXD3CHLPstF0lmOc73D4=",
+        "lastModified": 1794890597,
+        "narHash": "sha256-lME2lHoDHAaSHP3/okgiVoJ0icVEvsQH8LeU3We7tcc=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "1c89083e451e891152365b799595cf7790a43325",
+        "rev": "04906337b6d53e8bb0eaf0470ae9f070a4d4eb55",
         "type": "github"
       },
       "original": {
@@ -56,17 +56,14 @@
     "private": {
       "flake": false,
       "locked": {
-        "lastModified": 1793536801,
-        "narHash": "sha256-dQYWQpquOIOeUScRQy92c6nuIHOE4DkqugT/AuWN+8k=",
-        "ref": "refs/heads/main",
-        "rev": "968e9dacdaf480aca67e29f32b9efdcaa3c28490",
-        "revCount": 3,
-        "type": "git",
-        "url": "file:/home/redmouse/system_files/private"
+        "lastModified": 1795104126,
+        "narHash": "sha256-MqLrixZSzwLOkPhuGjgP7Cc/CVGX200TBKfg7EI7wXI=",
+        "path": "/home/redmouse/system_files/private",
+        "type": "path"
       },
       "original": {
-        "type": "git",
-        "url": "file:/home/redmouse/system_files/private"
+        "path": "/home/redmouse/system_files/private",
+        "type": "path"
       }
     },
     "root": {
